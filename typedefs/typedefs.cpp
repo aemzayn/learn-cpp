@@ -5,6 +5,10 @@ typedef std::vector<std::pair<std::string, int>> pairlist_t;
 typedef std::string text_t;
 typedef int number_t;
 
+// More popular than typedef
+using text_t = std::string;
+using number_t = int; 
+
 int main() {
   pairlist_t list;
   list.push_back(std::make_pair("Bro", 1));
